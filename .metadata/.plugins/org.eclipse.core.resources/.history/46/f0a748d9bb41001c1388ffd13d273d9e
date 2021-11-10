@@ -1,0 +1,11 @@
+package com.gaurav.dao;
+
+import Employee;
+
+public interface EmployeeDao {
+
+	Employee addEmployee(Employee employee);
+	public void deleteEmployee(int empid);
+	public int updateEmployee(Employee employee);
+	
+}

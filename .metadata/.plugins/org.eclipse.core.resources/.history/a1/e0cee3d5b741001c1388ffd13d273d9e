@@ -1,0 +1,9 @@
+package com.gaurav.dao;
+
+import com.gaurav.model.Employee;
+
+public interface EmployeeDao {
+
+	Employee addEmployee(Employee employee);
+	
+}

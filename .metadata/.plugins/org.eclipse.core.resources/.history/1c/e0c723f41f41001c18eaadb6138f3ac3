@@ -1,0 +1,21 @@
+package com.app.gaurav.main;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.app.gaurav.Gaurav;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		ApplicationContext context= new ClassPathXmlApplicationContext("bean.xml");
+		
+		Gaurav g1=(Gaurav) context.getBean("g1");
+		System.out.println(g1);
+		
+		
+		
+	}
+
+}

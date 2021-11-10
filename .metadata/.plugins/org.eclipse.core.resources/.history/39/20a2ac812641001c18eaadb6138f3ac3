@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean class="com.gaurav.Mother" name="mom">
+		<constructor-arg value="deepa"></constructor-arg>
+
+	</bean>
+
+
+	<bean class="com.gaurav.Father" name="father">
+		<constructor-arg value="surya_prakaash"></constructor-arg>
+
+	</bean>
+
+
+
+
+
+
+	<bean id="g1" class="com.gaurav.Gaurav">
+		<constructor-arg name="id" value="101">
+		</constructor-arg>
+		<constructor-arg name="name" value="gaurav">
+		</constructor-arg>
+		<constructor-arg name="color" value="black">
+		</constructor-arg>
+		<constructor-arg ref="mom" />
+		<constructor-arg ref="father" />
+
+
+
+	</bean>
+</beans>

@@ -1,0 +1,14 @@
+package com.gaurav.dao.impl;
+
+import com.gaurav.dao.EmployeeDao;
+import com.gaurav.model.Employee;
+
+public class EmployeeDaoImpl implements EmployeeDao {
+
+	@Override
+	public Employee addEmployee(Employee employee) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

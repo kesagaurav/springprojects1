@@ -1,0 +1,32 @@
+package com.gaurav.dao.impl;
+
+import javax.activation.DataSource;
+
+import org.springframework.jdbc.core.JdbcTemplate;
+
+import com.gaurav.dao.EmployeeDao;
+import com.gaurav.model.Employee;
+
+public class EmployeeDaoImpl implements EmployeeDao {
+	
+	private JdbcTemplate template;
+	private DataSource dataSource;
+	
+	
+	
+
+	public void setDataSource(DataSource dataSource) {
+		this.dataSource = dataSource;
+		this.template=new JdbcTemplate();
+	}
+
+
+
+
+	@Override
+	public Employee addEmployee(Employee employee) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

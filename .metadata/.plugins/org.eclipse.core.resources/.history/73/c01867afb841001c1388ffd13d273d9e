@@ -1,0 +1,48 @@
+package com.gaurav.main;
+
+import java.util.List;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.gaurav.dao.EmployeeDao;
+import com.gaurav.dao.PlayerDao;
+import com.gaurav.model.Employee;
+import com.gaurav.model.Player;
+
+public class SpringJdbcMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ApplicationContext context= new ClassPathXmlApplicationContext("beans.xml");
+		
+		//PlayerDao playerDao=(PlayerDao) context.getBean("playerDao");
+		
+//		playerDao.addPlayer(new Player(122,"kesagaurav",23,"male","warnagal","cricket","129109101",1));
+//		System.out.println("\n Player added");
+		
+
+		//Player player=playerDao.getPlayerById(107);
+		//System.out.println(player);
+		
+		//playerDao.deletePlayer(121);
+		
+	//String name="gaurav";
+	//int id=23;
+	//playerDao.updatePlayer(name, id);
+			
+		
+//		
+//		List<Player> playerList=playerDao.getAllPlayers();
+//	playerList.stream().forEach(e->System.out.println(e));	
+	
+	
+	EmployeeDao employeeDao=(EmployeeDao) context.getBean("EmployeeDao");
+	employeeDao.addEmployee(new Employee(7,"sutya","80000","ifg"));
+	System.out.println("employee added successfully");
+	
+	
+	
+	}
+
+}
