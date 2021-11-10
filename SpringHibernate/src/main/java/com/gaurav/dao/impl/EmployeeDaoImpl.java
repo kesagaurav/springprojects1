@@ -69,32 +69,32 @@ public class EmployeeDaoImpl implements EmployeeDao {
 
 	@Override
 	public List<Employee> getAllEmployees() {
-		// TODO Auto-generated method stub
-		return null;
+		
+		return getSession().createQuery("from com.gaurav.model.Employee").list();
 	}
 
 	@Override
 	public List<Employee> getAllEmployeesByName(String name) {
 		// TODO Auto-generated method stub
-		return null;
+		return getSession().createQuery("from com.gaurav.model.Employee where name= :name").setString("name",name).list();
 	}
 
 	@Override
 	public List<Employee> getAllEmployeesByDesignation(String designation) {
 		// TODO Auto-generated method stub
-		return null;
+		return getSession().createQuery("from com.gaurav.model.Employee where designation= :designation").setString("designation",designation).list();
 	}
 
 	@Override
 	public List<Employee> getAllEmployeesByAge(int age) {
 		// TODO Auto-generated method stub
-		return null;
+		return getSession().createQuery("from com.gaurav.model.Employee where age= :age").setInteger("age",age).list();
 	}
 
 	@Override
-	public List<Employee> getAllEmployeesBySalary(double salary) {
+	public List<Employee> getAllEmployeesBySalary(double salarly) {
 		// TODO Auto-generated method stub
-		return null;
+		return getSession().createQuery("from com.gaurav.model.Employee where salarly= :salarly").setDouble("salarly",salarly).list();
 	}
 
 }

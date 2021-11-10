@@ -1,0 +1,27 @@
+package com.gaurav.main;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.gaurav.dao.EmployeeDao;
+import com.gaurav.model.Employee;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ApplicationContext context=new ClassPathXmlApplicationContext("spring_hibernate_beans.xml");
+		EmployeeDao emp = (EmployeeDao) context.getBean("employeeDAO");
+		
+		emp.addEmployee(new Employee("gaurav",23,40000.00,"digitalspecialist"));
+		emp.addEmployee(new Employee("deepa",24,34000.00,"powerprogrammer"));
+		emp.addEmployee(new Employee("omkar",25,440000.00,"pathology"));
+		emp.addEmployee(new Employee("rama",26,450000.00,"associate se"));
+		emp.addEmployee(new Employee("krishna",27,540000.00,"se"));
+		emp.addEmployee(new Employee("joe",28,940000.00,"digitalanalyst"));
+		
+		
+		
+	}
+
+}

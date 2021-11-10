@@ -14,5 +14,5 @@ public interface EmployeeDao {
 	public List<Employee> getAllEmployeesByName(String name);
 	public List<Employee> getAllEmployeesByDesignation(String designation);
 	public List<Employee> getAllEmployeesByAge(int age);
-	public List<Employee> getAllEmployeesBySalary(double salary);
+	public List<Employee> getAllEmployeesBySalary(double salarly);
 }
