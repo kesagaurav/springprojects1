@@ -2675,3 +2675,4 @@ org.apache.maven.project.ProjectBuildingException: Some problems were encountere
 2021-11-11 03:39:44,963 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2021-11-11 03:39:44,965 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2021-11-11 03:39:44,970 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-11 03:39:44,971 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\full stack devoplment concepts  by vinay sir\revature_India_26th_July_13Week\Week7(Spring,SpringBoot,Spring-Angular)\spring_demos\spring_hibernate_integration_demo\src\test\resources
