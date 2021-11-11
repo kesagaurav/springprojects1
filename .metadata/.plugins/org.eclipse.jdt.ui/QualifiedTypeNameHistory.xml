@@ -13,16 +13,12 @@
 <fullyQualifiedTypeName name="org.hibernate.Session"/>
 <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
 <fullyQualifiedTypeName name="com.gaurav.dao.impl.EmployeeDaoImpl"/>
-<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
-<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
 <fullyQualifiedTypeName name="com.app.gaurav.Gaurav"/>
 <fullyQualifiedTypeName name="com.gaurav.Gaurav"/>
-<fullyQualifiedTypeName name="com.gaurav.dao.EmployeeDao"/>
 <fullyQualifiedTypeName name="javax.sql.DataSource"/>
 <fullyQualifiedTypeName name="org.springframework.jdbc.core.RowMapper"/>
 <fullyQualifiedTypeName name="com.gaurav.dao.impl.PlayerRowMapper"/>
 <fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="com.gaurav.model.Employee"/>
 <fullyQualifiedTypeName name="com.gaurav.dao.impl.EmployeeRowMapper"/>
 <fullyQualifiedTypeName name="javax.activation.DataSource"/>
 <fullyQualifiedTypeName name="org.springframework.jdbc.datasource.DriverManagerDataSource"/>
@@ -34,4 +30,8 @@
 <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="com.gaurav.model.Employee"/>
+<fullyQualifiedTypeName name="com.gaurav.dao.EmployeeDao"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd  http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+
+
+
+	<bean id="a1" class="com.gaurav.model.Address">
+		<property name="aid" value="1"></property>
+		<property name="street" value="karemmbad"></property>
+		<property name="city" value="warangal"></property>
+	</bean>
+
+
+	<bean id="a2" class="com.gaurav.model.Address">
+		<property name="aid" value="2"></property>
+		<property name="street" value="gachiboli"></property>
+		<property name="city" value="hyderabad"></property>
+	</bean>
+
+
+	<bean id="t1" class="com.gaurav.model.Team">
+		<property name="teamId" value="90901"></property>
+		<property name="teamName" value="INDIA"></property>
+		<property name="coachName" value="Ravi Shastri"></property>
+	</bean>
+	<bean id="t2" class="com.gaurav.model.Team">
+		<property name="teamId" value="90902"></property>
+		<property name="teamName" value="Mumbai Indians"></property>
+		<property name="coachName" value="Anil Kumble"></property>
+	</bean>
+	<bean id="t3" class="com.gaurav.model.Team">
+		<property name="teamId" value="90903"></property>
+		<property name="teamName" value="Mumbai League West"></property>
+		<property name="coachName" value="Javed"></property>
+	</bean>
+	<bean id="t4" class="com.gaurav.model.Team">
+		<property name="teamId" value="90904"></property>
+		<property name="teamName" value="Mumbai League East"></property>
+		<property name="coachName" value="Gayakwad"></property>
+	</bean>
+	<bean id="t5" class="com.gaurav.model.Team">
+		<property name="teamId" value="90905"></property>
+		<property name="teamName" value="Kolkata Knight Riders"></property>
+		<property name="coachName" value="Brandon Macculum"></property>
+	</bean>
+
+
+
+
+
+	<bean id="student" class="com.gaurav.model.Student">
+		<property name="id" value="1"></property>
+		<property name="name" value="gaurav"></property>
+		<property name="address" ref="a2"></property>
+		<property name="team">
+			<list>
+				<ref bean="t1" />
+				<ref bean="t2" />
+			</list>
+
+		</property>
+
+		<property name="courses">
+			<map>
+				<entry key="java" value="1 month " />
+				<entry key="c" value="6 month " />
+				<entry key=".net" value="7 month" />
+				<entry key="angular" value="8 month" />
+				<entry key="ts" value="2 month" />
+
+
+			</map>
+		</property>
+
+	</bean>
+
+
+</beans>
