@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
+    <entry loc="C:\Program Files\Eclipse Adoptium\jdk-8.0.352.8-hotspot" stamp="1675325822916"/>
+    <entry loc="C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\jre" stamp="1666026702732"/>
     <entry loc="C:\SoftwareCenterApplications\spring-tool-suite-4.15.1\spring-tool-suite-4.15.1\sts-4.15.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416\jre" stamp="1666068753661"/>
     <entry loc="C:\SoftwareCenterApplications\spring-tool-suite-4.15.1\spring-tool-suite-4.15.1\sts-4.15.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416" stamp="1666068753881"/>
 </dirs>

@@ -2,6 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\SpringBoot practice\SpringBasics\src\main\java\beans.xml"/>
+			<item value="C:\SpringBoot practice\SpringBasics\src\main\java\com\gaurav\SpringBasics\ci\ci.xml"/>
+			<item value="C:\Apache Maven-3.8.6\Apache Maven-3.8.6\apache-maven-3.8.6"/>
 			<item value="C:\SpringBoot practice"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -45,13 +48,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.gaurav"/>
 		</list>
 		<list key="name">
-			<item value="Gaurav"/>
 		</list>
 		<list key="artifactId">
-			<item value="Gaurav"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -66,6 +66,14 @@
 		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
